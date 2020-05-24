@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{57632406-F7DB-44F2-B2D1-1E5E0123F5E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7C562784-D44D-4E4F-A878-6D6619E11CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "Tests\TestConsole\TestConsole.csproj", "{6FEF01EF-03CC-4957-8551-E98B42F39A4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{57632406-F7DB-44F2-B2D1-1E5E0123F5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57632406-F7DB-44F2-B2D1-1E5E0123F5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57632406-F7DB-44F2-B2D1-1E5E0123F5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FEF01EF-03CC-4957-8551-E98B42F39A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEF01EF-03CC-4957-8551-E98B42F39A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEF01EF-03CC-4957-8551-E98B42F39A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEF01EF-03CC-4957-8551-E98B42F39A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FEF01EF-03CC-4957-8551-E98B42F39A4D} = {7C562784-D44D-4E4F-A878-6D6619E11CB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC657B5A-468E-4EDD-8967-2FCB6BB132F7}
